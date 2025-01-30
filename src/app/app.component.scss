@@ -1,0 +1,32 @@
+.main-container {
+  height: var(--main-content);
+  margin: auto;
+  border-radius: 10px;
+
+  footer {
+    background: var(--secondary-color-background);
+    height: var(--footer-height);
+    margin-top: 5px;
+    border-radius: 10px 10px 0px 0px;
+
+  }
+
+  header {
+    background: var(--secondary-color);
+    height: var(--header-height);
+    margin-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 7px;
+    img{
+        height: 50px;
+        width: 70px;
+    }
+  }
+
+  .content{
+    height: var(--content-height);
+    background: var(--primary-background);
+    border-radius: 10px 10px 10px 10px;
+    
+  }
+}
